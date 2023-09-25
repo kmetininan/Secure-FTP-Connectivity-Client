@@ -1,0 +1,852 @@
+2021-06-14 08:49:18 INFO  SFTPFrm:124 - connected
+2021-06-14 08:49:20 INFO  SFTPFrm:124 - connected
+2021-06-14 08:49:21 INFO  SFTPFrm:124 - connected
+2021-06-14 08:52:37 INFO  SFTPFrm:125 - Exception com.jcraft.jsch.JSchException: Auth fail
+2021-06-14 08:53:07 INFO  SFTPFrm:125 - Exception com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+2021-06-14 08:53:28 INFO  SFTPFrm:125 - Exception com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+2021-06-14 08:57:05 INFO  SFTPFrm:123 - connected
+2021-06-14 09:04:13 INFO  SFTPFrm:127 - Exception com.jcraft.jsch.JSchException: Auth fail
+2021-06-14 09:16:29 INFO  SFTPFrm:45 - Connecting to  port 22
+2021-06-14 09:16:29 INFO  SFTPFrm:45 - Connection established
+2021-06-14 09:16:29 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 09:16:29 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.54
+2021-06-14 09:16:29 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - CheckSignatures: ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_KEX_ECDH_INIT sent
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - expecting SSH_MSG_KEX_ECDH_REPLY
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 09:16:30 WARN  SFTPFrm:45 - Permanently added '' (RSA) to the list of known hosts.
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - Authentications that can continue: password
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - Next authentication method: password
+2021-06-14 09:16:30 INFO  SFTPFrm:45 - Disconnecting from  port 22
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Connecting to  port 22
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Connection established
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.54
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - CheckSignatures: ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_KEX_ECDH_INIT sent
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - expecting SSH_MSG_KEX_ECDH_REPLY
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 09:20:19 WARN  SFTPFrm:45 - Permanently added '' (RSA) to the list of known hosts.
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Authentications that can continue: password
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Next authentication method: password
+2021-06-14 09:20:19 INFO  SFTPFrm:45 - Disconnecting from  port 22
+2021-06-14 09:20:51 INFO  SFTPFrm:45 - Connecting to  port 22
+2021-06-14 09:20:51 INFO  SFTPFrm:45 - Connection established
+2021-06-14 09:20:51 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 09:20:51 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.54
+2021-06-14 09:20:51 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - CheckSignatures: ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-ctr,aes192-cbc,aes256-ctr,aes256-cbc
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_KEX_ECDH_INIT sent
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - expecting SSH_MSG_KEX_ECDH_REPLY
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 09:20:52 WARN  SFTPFrm:45 - Permanently added '' (RSA) to the list of known hosts.
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - Authentications that can continue: password
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - Next authentication method: password
+2021-06-14 09:20:52 INFO  SFTPFrm:45 - Disconnecting from  port 22
+2021-06-14 09:20:52 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: Auth fail
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Connection established
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.49
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 13:42:32 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 13:42:32 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-06-14 13:49:41 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 13:49:41 INFO  SFTPFrm:45 - Connection established
+2021-06-14 13:49:41 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 13:49:41 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.49
+2021-06-14 13:49:41 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 13:49:42 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 13:49:42 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-06-14 14:04:19 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 0
+2021-06-14 14:04:19 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+2021-06-14 14:04:54 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port -1
+2021-06-14 14:04:54 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.lang.IllegalArgumentException: port out of range:-1
+2021-06-14 14:10:47 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 23
+2021-06-14 14:10:49 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
+2021-06-14 14:11:41 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 14:11:41 INFO  SFTPFrm:45 - Connection established
+2021-06-14 14:11:41 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 14:11:41 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.49
+2021-06-14 14:11:41 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 14:11:42 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 14:11:42 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Connection established
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.49
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 14:17:13 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 14:17:13 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - Connection established
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.49
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 14:20:56 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 14:20:57 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 14:20:57 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - Connecting to 192.168.245.6 port 22
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - Connection established
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-06-14 15:08:03 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server: 
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client: 
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-06-14 15:08:04 WARN  SFTPFrm:45 - Permanently added '192.168.245.6' (RSA) to the list of known hosts.
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-06-14 15:08:04 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - Connection established
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 13:45:44 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 13:45:45 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 13:45:45 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 13:47:39 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 13:47:39 INFO  SFTPFrm:45 - Connection established
+2021-08-12 13:47:39 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 13:47:39 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 13:47:39 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 13:47:40 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 13:47:40 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Connection established
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 13:53:41 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 13:53:41 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:00:37 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:00:37 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:02:42 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:02:42 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:02:58 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:02:58 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:03:09 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:03:09 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:03:14 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:03:14 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:12:15 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:12:15 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:12:15 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:12:15 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:12:15 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:12:16 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:12:17 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:12:18 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:12:18 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:13:01 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 21
+2021-08-12 14:13:03 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:13:13 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:13:13 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - Connection established
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - Remote version string: SSH-2.0-RebexSSH_5.0.7732.0
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - Local version string: SSH-2.0-JSCH-0.1.51
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - CheckCiphers: aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-ctr,arcfour,arcfour128,arcfour256
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - CheckKexes: diffie-hellman-group14-sha1
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT sent
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - SSH_MSG_KEXINIT received
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group15-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: rsa-sha2-256,ssh-rsa-sha256@ssh.com,rsa-sha2-512,ssh-rsa,ssh-dss
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,3des-ctr,twofish256-ctr,twofish192-ctr,twofish128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,twofish256-cbc,twofish192-cbc,twofish128-cbc,twofish-cbc,chacha20-poly1305@openssh.com
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512-etm@openssh.com,hmac-sha2-512,hmac-sha1
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: none
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: server: 
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: client: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: client: ssh-rsa,ssh-dss
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: client: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc,aes192-cbc,aes256-cbc
+2021-08-12 14:29:56 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client: hmac-md5,hmac-sha1,hmac-sha2-256,hmac-sha1-96,hmac-md5-96
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client: none
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client: 
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: server->client aes128-ctr hmac-sha1 none
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - kex: client->server aes128-ctr hmac-sha1 none
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - SSH_MSG_KEXDH_INIT sent
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - expecting SSH_MSG_KEXDH_REPLY
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - ssh_rsa_verify: signature true
+2021-08-12 14:29:57 WARN  SFTPFrm:45 - Permanently added '192.168.1.108' (RSA) to the list of known hosts.
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS sent
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - SSH_MSG_NEWKEYS received
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_REQUEST sent
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - SSH_MSG_SERVICE_ACCEPT received
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - Authentications that can continue: keyboard-interactive,password
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - Next authentication method: keyboard-interactive
+2021-08-12 14:29:57 INFO  SFTPFrm:45 - Authentication succeeded (keyboard-interactive).
+2021-09-06 14:33:01 INFO  SFTPFrm:45 - Connecting to 192.168.1.108 port 22
+2021-09-06 14:33:22 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+2023-09-25 10:00:50 INFO  SFTPFrm:45 - Connecting to  port 22
+2023-09-25 10:00:51 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
+2023-09-25 10:00:53 INFO  SFTPFrm:45 - Connecting to  port 22
+2023-09-25 10:00:53 FATAL SFTPFrm:45 - com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
